@@ -28,7 +28,7 @@ To add Yahoo Weather to your installation, add the following to your `configurat
 sensor:
   platform: yweather
   woeid: YOUR_WOEID
-  forecast: 0 until 5
+  forecast: 0
   monitored_conditions:
    - weather
    - weather_current
